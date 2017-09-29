@@ -90,7 +90,7 @@ class CloudBusterPlugin extends BasePlugin
 
 	public function hasCpSection()
 	{
-		return true;
+		return false;
 	}
 
 	protected function defineSettings()
