@@ -1,0 +1,14 @@
+{
+	"name": "bluestorm/cloudbuster",
+	"description": "Busts caching on Cloudflare when entries or assets are updated/uploaded.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Adam Burton",
+			"homepage": "https://bluestorm.design"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

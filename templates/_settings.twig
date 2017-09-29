@@ -1,0 +1,25 @@
+{% import '_includes/forms' as forms %}
+
+{{ forms.textField({
+    label: 'Zone ID'|t,
+    required: true,
+    name: 'zone',
+    value: settings.zone,
+    errors: settings.getErrors('zone')
+}) }}
+
+{{ forms.textField({
+    label: 'API Key'|t,
+    required: true,
+    name: 'apiKey',
+    value: settings.apiKey,
+    errors: settings.getErrors('apiKey')
+}) }}
+
+{{ forms.textField({
+    label: 'Cloudflare Account Email'|t,
+    required: true,
+    name: 'email',
+    value: settings.email,
+    errors: settings.getErrors('email')
+}) }}
