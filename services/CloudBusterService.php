@@ -29,6 +29,8 @@ class CloudBusterService extends BaseApplicationComponent
 		if(!$settings->apiKey || !$settings->email || !$settings->zone)
 		{
 			CloudBusterPlugin::log('Please configure your API key, email and zone in the plugin settings.');
+
+			return;
 		}
 
 		$headers = [
