@@ -2,7 +2,7 @@
 
 Busts caching on Cloudflare when entries or assets are updated/uploaded.
 
-![CloudBuster Icon](https://rawgit.com/bluestorm/craft-cloudbuster/master/resources/icon.svg)
+![CloudBuster Icon](https://cdn.rawgit.com/bluestorm/craft-cloudbuster/master/resources/icon.svg)
 
 ## Installation
 
